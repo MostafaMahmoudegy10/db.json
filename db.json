@@ -1,0 +1,41 @@
+{
+  "product": {
+    "woman": [
+      {
+        "id": 1,
+        "category": "bag",
+        "price": 2000,
+        "color": {
+          "red": {
+            "in_stock": true,
+            "image_url": "https://example.com/red-bag.jpg"
+          },
+          "black": {
+            "in_stock": false,
+            "image_url": "https://example.com/black-bag.jpg"
+          }
+        }
+      },
+      {
+        "id": 3,
+        "category": "shoes",
+        "price": 1500,
+        "color": {
+          "white": {
+            "in_stock": true,
+            "image_url": "https://example.com/white-shoes.jpg"
+          },
+          "blue": {
+            "in_stock": true,
+            "image_url": "https://example.com/blue-shoes.jpg"
+          }
+        }
+      }
+    ]
+  },
+  "user": {
+    "name": "Sara",
+    "email": "sara@example.com",
+    "favorites": [1, 2]
+  }
+}
